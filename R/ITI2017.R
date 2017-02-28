@@ -1,4 +1,4 @@
-"ITI2017" <- Vectorize(function(income, category) {
+"ITI2017" <- Vectorize(function(income, category=1) {
   if (income < 0) stop("Error: Income must be > 0.")
   if (category == 1){
     if (income <= 300000)
@@ -143,5 +143,5 @@
       EC <- (IT+NSC)*0.03
       return(IT+NSC+EC)}
   }
-  stop("ERROR in IIT: category must be either 1 or 2.")
+  stop("ERROR in IIT: category must be either 1 to 6.")
 })
