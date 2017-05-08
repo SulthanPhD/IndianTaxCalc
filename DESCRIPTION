@@ -1,10 +1,11 @@
 Package: IndianTaxCalc
 Type: Package
 Title: Indian Income Tax Calculator
-Version: 1.0.1
+Version: 1.0.2
 Author: Sulthan <contact@iamsulthan.in>
 Maintainer: Sulthan <contact@iamsulthan.in>
-URL: www.iamsulthan.in
+URL: https://github.com/iamsulthan/IndianTaxCalc
+BugReports: https://github.com/iamsulthan/IndianTaxCalc/issues 
 Description: Calculate Indian Income Tax liability for Financial years of Individual resident aged below 60 years,Senior Citizen,Super Senior Citizen, Firm, Local Authority, Any Non Resident Individual / Hindu Undivided Family / Association of Persons /Body of Individuals / Artificial Judicial Person, Co-operative Society.
 License: GPL (>= 2)
 Encoding: UTF-8
